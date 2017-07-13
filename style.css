@@ -1,5 +1,104 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+ul {
+  margin: 0px;
+}
+
+html, body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
 
 body {
-  font-family: Arial;
+  font-family: 'Roboto', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.site-wrapper {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site-wrapper.home {
+  background-image: url('images/main-bg.jpg');
+}
+
+.site-wrapper.about {
+  background-color: #D3360B;
+}
+
+.site-menu {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.site-menu li {
+  margin-right: 10px;
+  margin-left: 10px;
+  display: inline-block;
+  color: white;
+  font-size: 21px;
+}
+
+.site-menu li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Main Content */
+.main-content {
+  text-align: center;
+}
+
+.main-content h1 {
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main-content h2 {
+  color: #333333;
+  font-size: 28px;
+}
+
+.user-photo {
+  border-radius: 100%;
+}
+
+/* Footer - Social Media */
+.site-footer {
+  text-align: center;
+}
+
+.divider {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 60px auto;
+  background-color: #333333;
+}
+
+.user-social-media {
+  list-style: none;
+  padding: 0px;
+}
+
+.user-social-media li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 42px;
+}
+
+.user-social-media li a {
+  color: #333333;
 }
