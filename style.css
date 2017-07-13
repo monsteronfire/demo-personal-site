@@ -17,8 +17,11 @@ body {
 }
 
 .site-wrapper {
+  position: relative;
   width: 100%;
   height: 100%;
+  /*background-color: #A70409;*/
+  background-color: #D3360B;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -27,13 +30,9 @@ body {
   background-image: url('images/main-bg.jpg');
 }
 
-.site-wrapper.about {
-  background-color: #D3360B;
-}
-
 .site-menu {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-left: 0px;
   text-align: center;
 }
@@ -43,7 +42,7 @@ body {
   margin-left: 10px;
   display: inline-block;
   color: white;
-  font-size: 21px;
+  font-size: 16px;
 }
 
 .site-menu li a {
@@ -60,22 +59,27 @@ body {
 
 .main-content h1 {
   color: white;
-  font-size: 42px;
+  font-size: 35px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .main-content h2 {
   color: #333333;
-  font-size: 28px;
+  font-size: 21px;
 }
 
 .user-photo {
   border-radius: 100%;
+  border: 1px solid white;
 }
 
 /* Footer - Social Media */
 .site-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 40px;
   text-align: center;
 }
 
@@ -83,7 +87,7 @@ body {
   display: block;
   width: 30px;
   height: 3px;
-  margin: 60px auto;
+  margin: 30px auto;
   background-color: #333333;
 }
 
@@ -96,9 +100,16 @@ body {
   display: inline-block;
   margin-left: 20px;
   margin-right: 20px;
-  font-size: 42px;
+  font-size: 28px;
 }
 
 .user-social-media li a {
   color: #333333;
+}
+
+/* About Page */
+.user-description {
+  width: 70%;
+  margin: 60px auto;
+  color: white;
 }
