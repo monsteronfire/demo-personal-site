@@ -1,10 +1,13 @@
 (function () {
   var image = document.getElementById('user-photo');
-  image.className += ' circle';
 
-  image.addEventListener('click', morph);
+  if(image) {
+    image.className += ' circle';
+    image.addEventListener('click', morph);
+  }
 
-  function morph() {
+  function morph () {
     image.classList.toggle('circle');
   }
+
 })();
