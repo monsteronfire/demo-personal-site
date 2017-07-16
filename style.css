@@ -70,8 +70,13 @@ body {
 }
 
 .user-photo {
-  border-radius: 100%;
   border: 1px solid white;
+  transition: border-radius 0.5s ease-in;
+}
+
+.circle {
+  border-radius: 100%;
+  /*transition: border-radius 2s ease-out;*/
 }
 
 /* Footer - Social Media */
