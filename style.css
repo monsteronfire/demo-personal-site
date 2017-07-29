@@ -161,6 +161,7 @@ textarea {
 button {
   background-color: transparent;
   color: white;
+  cursor: pointer;
 }
 
 input::-webkit-input-placeholder,
